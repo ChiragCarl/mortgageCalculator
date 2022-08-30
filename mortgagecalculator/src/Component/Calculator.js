@@ -226,13 +226,13 @@ export default function Calculator() {
                 </tbody>
             </table>
             <br/>
-        <button className='btn btn-warning' style={{margin:"10px"}} onClick={()=>generateReport("Year",totalInstallment)}>Generate Yearly Grpah  </button>
+        <button className='btn btn-warning' style={{margin:"10px"}} onClick={()=>generateReport("Year",totalInstallment)}>Generate Yearly Graph  </button>
 		
         <Link to="/Report" className='btn btn-danger' style={{margin:"10px"}} data={report} onClick={()=>generateReport("Year",totalInstallment)}>Generate Yearly Report </Link>
            
      
            <br/>
-        <button className='btn btn-primary' style={{margin:"10px"}} onClick={()=>generateReport("Month",totalInstallment)}>Generate Monthly Grpah  </button>
+        <button className='btn btn-primary' style={{margin:"10px"}} onClick={()=>generateReport("Month",totalInstallment)}>Generate Monthly Graph  </button>
         <Link to="/Report" className='btn btn-success' style={{margin:"10px"}} data={report} onClick={()=>generateReport("Month",totalInstallment)}>Generate Monthly Report </Link>
 
       

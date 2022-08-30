@@ -8,7 +8,6 @@ export const getProducts = async (req, res) => {
     } catch (error) {
         res.status(500).json({message: error.message});
     }
-     
 }
  
 // get single Product
@@ -19,7 +18,7 @@ export const getProductById = async (req, res) => {
     } catch (error) {
         res.status(404).json({message: error.message});
     }
-     
+    
 }
  
 // Create a Product
