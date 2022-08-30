@@ -131,5 +131,15 @@ export default function Register() {
               </div>
           </div>                 
     </div>
+    
+<div className='container-fluid footer'>
+            <div className='row'>
+                <div className='col-md-12'>
+                      <p> Copyrights &copy; 2022 | Desgined by APPWRK IT Solutions Pvt. Ltd.</p>
+                </div>
+            </div>
+      </div>
+     
+
   </>)
 }
